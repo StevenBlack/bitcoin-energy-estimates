@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"
+        "HTMLFiles/xhtml-math11-f.dtd">
+
+<!-- Created with the Wolfram Language : www.wolfram.com -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>
+  bitcoin-energy-estimates
+ </title>
+ <link href="HTMLFiles/readme.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body style="font-size: Floor[150. Inherited]%;">
+
+<p class="Title">
+ Bitcoin Energy Estimates (DRAFT)
+</p>
+
+
+
+<p class="Subtitle">
+ Estimating the energy use of the Bitcoin network using various approaches.
+</p>
+
+
+
+<p class="Author">
+ by Steven Black<br />Project home: https://github.com/StevenBlack/bitcoin-energy-estimates<br />Updated: October 21 2023
+</p>
+
+
+
+<p class="Section">
+ Introduction
+</p>
+
+
+
+<p class="Text">
+ Bitcoin mining uses a Proof-of-Work consensus mechanism. This is controversial for some because that supposedly requires a lot of electrical energy. We see claims the bitcoin network &ldquo;<span style='font-style: italic;'>uses as much electricity as a small country</span>&rdquo;, or <span style='font-style: italic;'>&ldquo;requires as much electricity as Belgium, or Chile.</span>&rdquo;
+</p>
+
+
+
+<p class="Text">
+ This study assessed those notions using the following approaches: 
+</p>
+
+
+
+<p class="ItemNumbered">
+ <span style='font-style: italic;font-weight: bold;'>Presuming Bitcoin mining is marginally profitable, how much energy can be used compared to actual mining rewards over time?:</span>
+</p>
+
+
+
+<p class="ItemNumbered">
+ <span style='font-style: italic;font-weight: bold;'>Given the reported hashrate, how much energy would be required to achieve that.</span>
+</p>
+
+
+
+<p class="Text">
+ This paper uses <span style='font-weight: bold;'>Canadian dollars</span>, partly because that&rsquo;s my fiat currency, and because Canada publishes particularly good statistics about electricity generation and costs.
+</p>
+
+
+
+<p class="Subsection">
+ Bitcoin price, block rewards, and fees
+</p>
+
+
+
+<p class="Subsubsection">
+ Bitcoin price right now
+</p>
+
+
+
+<p class="Text">
+ For the purpose of discussion, what is the current price of Bitcoin in Canadian dollars?
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/readme_1.png" alt="readme_1.png" width="35" height="26" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_2.png" alt="readme_2.png" width="278" height="40" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/readme_3.png" alt="readme_3.png" width="944" height="26" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_4.png" alt="readme_4.png" width="170" height="34" style="vertical-align:middle" />
+</p>
+
+<p class="Subsubsection">
+ Bitcoin block rewards
+</p>
+
+
+
+<p class="Text">
+ Bitcoin miners are compensated with the block reward for blocks they successfully mine, plus all the transaction fees in that block. In the current epoch (2020 - 2024) the block reward is 6 1/4 BTC.
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/readme_5.png" alt="readme_5.png" width="406" height="26" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_6.png" alt="readme_6.png" width="89" height="38" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ <span style='font-weight: bold;'>ASSUMPTION</span>: the average of transaction fees per block is 0.15 BTC.
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/readme_7.png" alt="readme_7.png" width="372" height="26" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_8.png" alt="readme_8.png" width="89" height="38" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ Therefore, the total Bitcoin paid to miners for an average block, denominated in Bitcoin.
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/readme_9.png" alt="readme_9.png" width="526" height="26" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_10.png" alt="readme_10.png" width="73" height="38" style="vertical-align:middle" />
+</p>
+
+<p class="Subsubsection">
+ The actual block rate
+</p>
+
+
+
+<p class="Text">
+ Historically Bitcoin blocks land at a rate faster then the block time target (6 per hour, or 144 blocks per day).&nbsp;&nbsp;Let's recon an average block rate over a sample interval to present day:
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/readme_11.gif" alt="readme_11.gif" width="754" height="58" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_12.png" alt="readme_12.png" width="187" height="39" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/readme_13.png" alt="readme_13.png" width="951" height="26" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_14.png" alt="readme_14.png" width="213" height="34" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/readme_15.png" alt="readme_15.png" width="751" height="26" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_16.png" alt="readme_16.png" width="252" height="38" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/readme_17.png" alt="readme_17.png" width="675" height="26" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_18.png" alt="readme_18.png" width="274" height="39" style="vertical-align:middle" />
+</p>
+
+<p class="Subsubsection">
+ Bitcoin price as a time series
+</p>
+
+
+
+<p class="Text">
+ Let's gather data on bitcoin price over the past sampletime.
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/readme_19.png" alt="readme_19.png" width="1027" height="26" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/readme_20.png" alt="readme_20.png" width="411" height="26" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_21.png" alt="readme_21.png" width="170" height="34" style="vertical-align:middle" />
+</p>
+
+<p class="Section">
+ Hourly Economics
+</p>
+
+
+
+<p class="Subsection">
+ Global revenue per hour
+</p>
+
+
+
+<p class="Text">
+ The value, in Canadian Dollars, of all Bitcoin mined globally, per hour.
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/readme_22.png" alt="readme_22.png" width="1011" height="58" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_23.png" alt="readme_23.png" width="341" height="41" style="vertical-align:middle" />
+</p>
+
+<p class="Subsection">
+ Electricity cost, per kWh
+</p>
+
+
+
+<p class="Text">
+ See: https://www.hydroquebec.com/business/customer-space/rates/comparison-electricity-prices.html
+</p>
+
+
+
+<p class="Text">
+ <span><span><img src="HTMLFiles/readme_24.gif" alt="readme_24.gif" width="994" height="529" style="vertical-align:middle" /></span></span>
+</p>
+
+
+
+<p class="Text">
+ Let&rsquo;s presume that nobody in their right mind would want to mine Bitcoin in New York or Boston. Here's the distribution of electricity input costs from the other 5 locations.
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/readme_25.png" alt="readme_25.png" width="499" height="182" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_26.png" alt="readme_26.png" width="578" height="38" style="vertical-align:middle" />
+</p>
+
+<p class="Subsection">
+ Business cost assumption
+</p>
+
+
+
+<p class="Text">
+ Let&rsquo;s presume 85% of mining revenue is available to pay electricity cost.
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/readme_27.png" alt="readme_27.png" width="350" height="26" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_28.png" alt="readme_28.png" width="65" height="34" style="vertical-align:middle" />
+</p>
+
+<p class="Subsection">
+ Energy economically sustainable
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/readme_29.png" alt="readme_29.png" width="590" height="54" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_30.png" alt="readme_30.png" width="286" height="41" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ Cognitively we can say, Bitcoin's power consumption is in the order of 11 GWH.
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/readme_31.png" alt="readme_31.png" width="725" height="26" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_32.png" alt="readme_32.png" width="289" height="41" style="vertical-align:middle" />
+</p>
+
+<p class="Section">
+ Comparisons with large power generation facilities or regions
+</p>
+
+
+
+<p class="Text">
+ Let&rsquo;s compare the Bitcoin network with the power and energy that generated, or used, by various things.
+</p>
+
+
+
+<p class="Text">
+ Here's the raw data for various generation facilities and regions.
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/readme_33.png" alt="readme_33.png" width="903" height="190" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/readme_34.png" alt="readme_34.png" width="906" height="26" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_35.png" alt="readme_35.png" width="764" height="175" style="vertical-align:middle" />
+</p>
+
+<p class="Subsection">
+ Robert-<span>Bourassa</span> generating station &mdash; a.k.a. &ldquo;LG-2&rdquo;
+</p>
+
+
+
+<p class="Text">
+ Here we compare the power consumption of the bitcoin network with the power generation capacity of the Robert Bourassa generating station in the James Bay region of northern Qu&eacute;bec. <br />See https://en.wikipedia.org/wiki/Robert-Bourassa_generating_station
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/readme_36.png" alt="readme_36.png" width="532" height="26" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_37.png" alt="readme_37.png" width="122" height="34" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ What is Bitcoin&rsquo;s global energy use in terms of LG-2?
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/readme_38.png" alt="readme_38.png" width="313" height="26" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_39.png" alt="readme_39.png" width="187" height="38" style="vertical-align:middle" />
+</p>
+
+<p class="Subsection">
+ Province of Qu&eacute;bec
+</p>
+
+
+
+<p class="Text">
+ In 2019 the Province of Qu&eacute;bec produced 212.9 TWh of electricity.<br /><br />What is Bitcoin&rsquo;s global energy use as a proportion of Qu&eacute;bec&rsquo;s electricity production in 2019?
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/readme_40.png" alt="readme_40.png" width="246" height="26" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_41.png" alt="readme_41.png" width="143" height="34" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/readme_42.png" alt="readme_42.png" width="476" height="61" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_43.png" alt="readme_43.png" width="154" height="34" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/readme_44.png" alt="readme_44.png" width="271" height="26" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_45.png" alt="readme_45.png" width="187" height="38" style="vertical-align:middle" />
+</p>
+
+<p class="Subsection">
+ Province of Ontario
+</p>
+
+
+
+<p class="Text">
+ See https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/provincial-territorial-energy-profiles/provincial-territorial-energy-profiles-ontario.html
+</p>
+
+
+
+<p class="Text">
+ In 2019, the average annual power consumption per capita in Ontario was 9.6 megawatt-hours (MWh).
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/readme_46.gif" alt="readme_46.gif" width="806" height="94" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_47.png" alt="readme_47.png" width="267" height="38" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/readme_48.png" alt="readme_48.png" width="372" height="26" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_49.png" alt="readme_49.png" width="322" height="41" style="vertical-align:middle" />
+</p>
+
+<p class="Subsection">
+ United States
+</p>
+
+
+
+<p class="Text">
+ See https://www.worlddata.info/america/usa/energy-consumption.php
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/readme_50.gif" alt="readme_50.gif" width="747" height="94" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_51.png" alt="readme_51.png" width="267" height="38" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/readme_52.png" alt="readme_52.png" width="278" height="26" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_53.png" alt="readme_53.png" width="322" height="41" style="vertical-align:middle" />
+</p>
+
+<p class="Subsection">
+ Europe
+</p>
+
+
+
+<p class="Text">
+ Again see See https://www.worlddata.info/america/usa/energy-consumption.php
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/readme_54.gif" alt="readme_54.gif" width="771" height="94" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_55.png" alt="readme_55.png" width="284" height="38" style="vertical-align:middle" />
+</p>
+
+<p class="Input">
+ <img src="HTMLFiles/readme_56.png" alt="readme_56.png" width="313" height="26" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/readme_57.png" alt="readme_57.png" width="351" height="41" style="vertical-align:middle" />
+</p>
+
+
+
+
+<div style="font-family:Helvetica; font-size:11px; width:100%; border:1px none #999999; border-top-style:solid; padding-top:2px; margin-top:20px;">
+ <a href="http://www.wolfram.com/language/" style="color:#000; text-decoration:none;">
+  <span style="color:#555555">Created with the Wolfram Language</span> 
+ </a>
+</div>
+</body>
+
+</html>
