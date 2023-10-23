@@ -1,3 +1,4 @@
+
 # Bitcoin Energy Estimates (DRAFT)
 
 **Estimating the energy use of the Bitcoin network using two different approaches.**
@@ -16,14 +17,8 @@
  This Mathematica notebook assessed those notions using the following approaches: 
 </p>
 
-<p class="ItemNumbered">
- <span style='font-style: italic;font-weight: bold;'>Presuming Bitcoin mining is marginally profitable, how much electical energy can be funded that balances actual mining rewards over time?</span>
-</p>
-
-<p class="ItemNumbered">
- <span style='font-style: italic;font-weight: bold;'>Given the reported hashrate, how much energy would be required to achieve that?</span>
-</p>
-
+1. <span style='font-style: italic;font-weight: bold;'>Presuming Bitcoin mining is marginally profitable, how much electical energy can be funded that balances actual mining rewards over time?</span>
+1. <span style='font-style: italic;font-weight: bold;'>Given the reported hashrate, how much energy would be required to achieve that?</span>
 <p class="Text">
  This paper uses <span style='font-weight: bold;'>Canadian dollars</span>, partly because that&rsquo;s my fiat currency, and because Canada publishes particularly good statistics about electricity generation and costs.
 </p>
@@ -278,8 +273,9 @@
  Coming soon.
 </p>
 
-
-## Appendix
+<p class="Chapter">
+ Appendix
+</p>
 
 ### Robert-<span>Bourassa</span> generating station &mdash; a.k.a. &ldquo;LG-2&rdquo;
 
@@ -406,3 +402,9 @@
 <p class="Output">
  <img src="HTMLFiles/bitcoin-energy-estimates_60.png" alt="bitcoin-energy-estimates_60.png" width="351" height="41" style="vertical-align:middle" />
 </p>
+
+<div style="font-family:Helvetica; font-size:11px; width:100%; border:1px none #999999; border-top-style:solid; padding-top:2px; margin-top:20px;">
+ <a href="http://www.wolfram.com/language/" style="color:#000; text-decoration:none;">
+  <span style="color:#555555">Created with the Wolfram Language</span> 
+ </a>
+</div>
