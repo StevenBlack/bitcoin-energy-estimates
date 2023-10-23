@@ -17,8 +17,10 @@
  This Mathematica notebook assessed those notions using the following approaches: 
 </p>
 
-1. <span style='font-style: italic;font-weight: bold;'>Presuming Bitcoin mining is marginally profitable, how much electical energy can be funded that balances actual mining rewards over time?</span>
-1. <span style='font-style: italic;font-weight: bold;'>Given the reported hashrate, how much energy would be required to achieve that?</span>
+1. ***Presuming Bitcoin mining is marginally profitable, how much electical energy can be funded that balances actual mining rewards over time?***
+
+1. ***Given the reported hashrate, how much energy would be required to achieve that?***
+
 <p class="Text">
  This paper uses **Canadian dollars**, partly because that&rsquo;s my fiat currency, and because Canada publishes particularly good statistics about electricity generation and costs.
 </p>
