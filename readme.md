@@ -273,9 +273,7 @@
  Coming soon.
 </p>
 
-<p class="Chapter">
- Appendix
-</p>
+## Appendix
 
 ### Robert-<span>Bourassa</span> generating station &mdash; a.k.a. &ldquo;LG-2&rdquo;
 

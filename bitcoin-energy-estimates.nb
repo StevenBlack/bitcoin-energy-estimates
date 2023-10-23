@@ -3816,7 +3816,7 @@ d13b03fa879c"]
 
 Cell[CellGroupData[{
 
-Cell["Appendix", "Chapter",
+Cell["Appendix", "Section",
  CellChangeTimes->{{3.9069914933931713`*^9, 3.90699149696874*^9}, {
   3.906991740486231*^9, 
   3.90699174809756*^9}},ExpressionUUID->"a61f5c8c-81a1-4cf9-95f6-\
@@ -4603,7 +4603,7 @@ Cell[34588, 726, 638, 14, 78, "Input",ExpressionUUID->"6c9dbb03-cc25-49c8-ae4c-9
 Cell[35229, 742, 975, 14, 53, "Text",ExpressionUUID->"1341b570-a31f-487b-aafc-77d81856a157"],
 Cell[CellGroupData[{
 Cell[36229, 760, 1652, 29, 264, "Input",ExpressionUUID->"ce0aa2dd-e729-4719-9cb0-958195e77da1"],
-Cell[37884, 791, 19917, 458, 577, "Output",ExpressionUUID->"d930e980-c1ee-43cc-9242-ca89f1574243"]
+Cell[37884, 791, 19917, 458, 598, "Output",ExpressionUUID->"d930e980-c1ee-43cc-9242-ca89f1574243"]
 }, Open  ]],
 Cell[57816, 1252, 430, 7, 46, "Input",ExpressionUUID->"acb1e6b8-bfc9-4f0c-9eae-fc913325aefb"]
 }, Open  ]],
@@ -4673,7 +4673,7 @@ Cell[203038, 3801, 289, 7, 158, "Section",ExpressionUUID->"4c6b0588-b22a-43da-bf
 Cell[203330, 3810, 154, 3, 53, "Text",ExpressionUUID->"fff8729e-a03a-4e8d-ba73-d13b03fa879c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[203521, 3818, 202, 4, 103, "Chapter",ExpressionUUID->"a61f5c8c-81a1-4cf9-95f6-d5c83476e7ba"],
+Cell[203521, 3818, 202, 4, 101, "Section",ExpressionUUID->"a61f5c8c-81a1-4cf9-95f6-d5c83476e7ba"],
 Cell[CellGroupData[{
 Cell[203748, 3826, 415, 10, 81, "Subsection",ExpressionUUID->"0ee0188b-c3fb-4f65-af01-fb3e29b4ecad"],
 Cell[204166, 3838, 465, 9, 122, "Text",ExpressionUUID->"00e1f76f-74c6-46bf-9dc5-b04040f39c8d"],
