@@ -6,7 +6,7 @@
 
 ## Introduction
 
- Bitcoin mining uses a Proof-of-Work consensus mechanism. This is controversial for some people because that supposedly requires a lot of electrical energy. We see claims the bitcoin network &ldquo;<span style='font-style: italic;'>uses as much electricity as a small country</span>&rdquo;, or <span style='font-style: italic;'>&ldquo;requires as much electricity as Belgium, or Chile.</span>&rdquo;
+ Bitcoin mining uses a Proof-of-Work consensus mechanism. This is controversial for some people because that supposedly requires a lot of electrical energy. We see claims the bitcoin network &ldquo;*uses as much electricity as a small country*&rdquo;, or *&ldquo;requires as much electricity as Belgium, or Chile.*&rdquo;
 
  This Mathematica notebook assessed those notions using the following approaches: 
 
@@ -64,7 +64,7 @@
 
  <img src="HTMLFiles/bitcoin-energy-estimates_13.png" alt="bitcoin-energy-estimates_13.png" width="794" height="58" style="vertical-align:middle" />
 
- <img src="HTMLFiles/bitcoin-energy-estimates_14.png" alt="bitcoin-energy-estimates_14.png" width="213" height="34" style="vertical-align:middle" />
+ <img src="HTMLFiles/bitcoin-energy-estimates_14.png" alt="bitcoin-energy-estimates_14.png" width="197" height="34" style="vertical-align:middle" />
 
  <img src="HTMLFiles/bitcoin-energy-estimates_15.png" alt="bitcoin-energy-estimates_15.png" width="751" height="26" style="vertical-align:middle" />
 
