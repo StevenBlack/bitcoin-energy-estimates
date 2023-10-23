@@ -10,7 +10,7 @@
 ## Introduction
 
 <p class="Text">
- Bitcoin mining uses a Proof-of-Work consensus mechanism. This is controversial for some because that supposedly requires a lot of electrical energy. We see claims the bitcoin network &ldquo;<span style='font-style: italic;'>uses as much electricity as a small country</span>&rdquo;, or <span style='font-style: italic;'>&ldquo;requires as much electricity as Belgium, or Chile.</span>&rdquo;
+ Bitcoin mining uses a Proof-of-Work consensus mechanism. This is controversial for some people because that supposedly requires a lot of electrical energy. We see claims the bitcoin network &ldquo;<span style='font-style: italic;'>uses as much electricity as a small country</span>&rdquo;, or <span style='font-style: italic;'>&ldquo;requires as much electricity as Belgium, or Chile.</span>&rdquo;
 </p>
 
 <p class="Text">
@@ -20,7 +20,7 @@
 1. <span style='font-style: italic;font-weight: bold;'>Presuming Bitcoin mining is marginally profitable, how much electical energy can be funded that balances actual mining rewards over time?</span>
 1. <span style='font-style: italic;font-weight: bold;'>Given the reported hashrate, how much energy would be required to achieve that?</span>
 <p class="Text">
- This paper uses <span style='font-weight: bold;'>Canadian dollars</span>, partly because that&rsquo;s my fiat currency, and because Canada publishes particularly good statistics about electricity generation and costs.
+ This paper uses **Canadian dollars**, partly because that&rsquo;s my fiat currency, and because Canada publishes particularly good statistics about electricity generation and costs.
 </p>
 
 ### Bitcoin price, block rewards, and fees
@@ -40,7 +40,7 @@
 </p>
 
 <p class="Output">
- <img src="HTMLFiles/bitcoin-energy-estimates_2.png" alt="bitcoin-energy-estimates_2.png" width="283" height="40" style="vertical-align:middle" />
+ <img src="HTMLFiles/bitcoin-energy-estimates_2.png" alt="bitcoin-energy-estimates_2.png" width="286" height="40" style="vertical-align:middle" />
 </p>
 
 <p class="Input">
@@ -68,7 +68,7 @@
 #### Bitcoin transaction fees per block
 
 <p class="Text">
- <span style='font-weight: bold;'>ASSUMPTION</span>: the average of transaction fees per block is 0.15 BTC.
+ **ASSUMPTION**: the average of transaction fees per block is 0.15 BTC.
 </p>
 
 <p class="Input">
