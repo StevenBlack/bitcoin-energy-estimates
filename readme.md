@@ -26,7 +26,7 @@
 
  <img src="HTMLFiles/bitcoin-energy-estimates_1.png" alt="bitcoin-energy-estimates_1.png" width="35" height="26" style="vertical-align:middle" />
 
- <img src="HTMLFiles/bitcoin-energy-estimates_2.png" alt="bitcoin-energy-estimates_2.png" width="286" height="40" style="vertical-align:middle" />
+ <img src="HTMLFiles/bitcoin-energy-estimates_2.png" alt="bitcoin-energy-estimates_2.png" width="282" height="40" style="vertical-align:middle" />
 
  <img src="HTMLFiles/bitcoin-energy-estimates_3.png" alt="bitcoin-energy-estimates_3.png" width="944" height="26" style="vertical-align:middle" />
 
@@ -36,23 +36,23 @@
 
  Bitcoin miners are compensated with block rewards from blocks they successfully mine, plus all the transaction fees in that block. In the current epoch (2020 - 2024) the block reward is 6 1/4 BTC.
 
- <img src="HTMLFiles/bitcoin-energy-estimates_5.png" alt="bitcoin-energy-estimates_5.png" width="406" height="26" style="vertical-align:middle" />
+ <img src="HTMLFiles/bitcoin-energy-estimates_5.png" alt="bitcoin-energy-estimates_5.png" width="857" height="26" style="vertical-align:middle" />
 
- <img src="HTMLFiles/bitcoin-energy-estimates_6.png" alt="bitcoin-energy-estimates_6.png" width="89" height="38" style="vertical-align:middle" />
+ <img src="HTMLFiles/bitcoin-energy-estimates_6.png" alt="bitcoin-energy-estimates_6.png" width="250" height="53" style="vertical-align:middle" />
 
 #### Bitcoin transaction fees per block
 
  **ASSUMPTION**: the average transaction fees paid to miners, per block, is 0.125 BTC, which is about 2% of the total mining reward for each block.
 
- <img src="HTMLFiles/bitcoin-energy-estimates_7.png" alt="bitcoin-energy-estimates_7.png" width="513" height="26" style="vertical-align:middle" />
+ <img src="HTMLFiles/bitcoin-energy-estimates_7.png" alt="bitcoin-energy-estimates_7.png" width="933" height="26" style="vertical-align:middle" />
 
- <img src="HTMLFiles/bitcoin-energy-estimates_8.png" alt="bitcoin-energy-estimates_8.png" width="105" height="38" style="vertical-align:middle" />
+ <img src="HTMLFiles/bitcoin-energy-estimates_8.png" alt="bitcoin-energy-estimates_8.png" width="266" height="53" style="vertical-align:middle" />
 
  Therefore, the total bitcoin paid to miners for an average block, denominated in bitcoin.
 
  <img src="HTMLFiles/bitcoin-energy-estimates_9.png" alt="bitcoin-energy-estimates_9.png" width="655" height="26" style="vertical-align:middle" />
 
- <img src="HTMLFiles/bitcoin-energy-estimates_10.png" alt="bitcoin-energy-estimates_10.png" width="105" height="38" style="vertical-align:middle" />
+ <img src="HTMLFiles/bitcoin-energy-estimates_10.png" alt="bitcoin-energy-estimates_10.png" width="266" height="53" style="vertical-align:middle" />
 
 #### The actual block rate
 
@@ -72,19 +72,19 @@
 
  We can now calculate the actual block rate per hour, and per day
 
- <img src="HTMLFiles/bitcoin-energy-estimates_15.png" alt="bitcoin-energy-estimates_15.png" width="1034" height="26" style="vertical-align:middle" />
+ <img src="HTMLFiles/bitcoin-energy-estimates_15.png" alt="bitcoin-energy-estimates_15.png" width="1023" height="26" style="vertical-align:middle" />
 
- <img src="HTMLFiles/bitcoin-energy-estimates_16.png" alt="bitcoin-energy-estimates_16.png" width="259" height="53" style="vertical-align:middle" />
+ <img src="HTMLFiles/bitcoin-energy-estimates_16.png" alt="bitcoin-energy-estimates_16.png" width="243" height="53" style="vertical-align:middle" />
 
  <img src="HTMLFiles/bitcoin-energy-estimates_17.png" alt="bitcoin-energy-estimates_17.png" width="666" height="26" style="vertical-align:middle" />
 
- <img src="HTMLFiles/bitcoin-energy-estimates_18.png" alt="bitcoin-energy-estimates_18.png" width="292" height="53" style="vertical-align:middle" />
+ <img src="HTMLFiles/bitcoin-energy-estimates_18.png" alt="bitcoin-energy-estimates_18.png" width="260" height="53" style="vertical-align:middle" />
 
 #### Total miner compensation, per hour
 
  <img src="HTMLFiles/bitcoin-energy-estimates_19.png" alt="bitcoin-energy-estimates_19.png" width="675" height="26" style="vertical-align:middle" />
 
- <img src="HTMLFiles/bitcoin-energy-estimates_20.png" alt="bitcoin-energy-estimates_20.png" width="281" height="53" style="vertical-align:middle" />
+ <img src="HTMLFiles/bitcoin-energy-estimates_20.png" alt="bitcoin-energy-estimates_20.png" width="274" height="39" style="vertical-align:middle" />
 
 #### Bitcoin price in Canadian dollars as a time series
 
@@ -160,24 +160,12 @@
 
  <img src="HTMLFiles/bitcoin-energy-estimates_38.png" alt="bitcoin-energy-estimates_38.png" width="903" height="394" style="vertical-align:middle" />
 
- <img src="HTMLFiles/bitcoin-energy-estimates_39.png" alt="bitcoin-energy-estimates_39.png" width="1095" height="337" style="vertical-align:middle" />
+ <img src="HTMLFiles/bitcoin-energy-estimates_39.png" alt="bitcoin-energy-estimates_39.png" width="633" height="306" style="vertical-align:middle" />
 
 <table class='Output' frame='box' rules='all'>
  <tr style='vertical-align: baseline;'>
   <td style='text-align: center;'><span>Facility or region</span></td>
-  <td style='text-align: center;'><table class='Inline'>
- <tr style='vertical-align: baseline;'>
-  <td style='text-align: center;'><span>BTC network</span></td>
- </tr>
- <tr style='vertical-align: baseline;'>
-  <td style='text-align: center;'><span>electricity consumption</span></td>
- </tr>
- <tr style='vertical-align: baseline;'>
-  <td style='text-align: center;'><span>relative size</span></td>
- </tr>
-</table>
-
-</td>
+  <td style='text-align: center;'><span>BTC relative consumption</span></td>
  </tr>
  <tr style='vertical-align: baseline;'>
   <td style='text-align: center;'><span><img src="HTMLFiles/bitcoin-energy-estimates_40.png" alt="bitcoin-energy-estimates_40.png" width="550" height="34" style="vertical-align:middle" /></span></td>
